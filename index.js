@@ -24,5 +24,5 @@ return(kittens.concat("Broom"))
 }
 
 function prependKitten(name) {
-  kittens = kittens.concat("Arnold", ...kittens)
+  return("Arnold", ...kittens)
 }
