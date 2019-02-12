@@ -28,5 +28,5 @@ function prependKitten(name) {
 }
 
 function removeLastKitten(name) {
-  
+  name = name.slice(1)
 }
